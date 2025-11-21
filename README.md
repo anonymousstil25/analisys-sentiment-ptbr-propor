@@ -134,6 +134,12 @@ We built a gold collection by combining three public datasets: [Olist](https://w
 
 Sampling was stratified by dataset: we selected 1,000 examples from each (totaling 3,000 texts) via simple random sampling, with a fixed seed [seed=20] to ensure reproducibility. The three datasets annotated sentiment on a numeric 1–5 scale. We harmonized the labels to the ternary scheme adopted in this study via the function $\phi : \{1, 2, 3, 4, 5\}$ $\rightarrow$ $\{negative,neutral,positive\}$, such that $\phi(\{1,2\})$ = negative, $\phi(3)$ = neutral, and $\phi(\{4,5\})$ = positive.
 
+#### Clusters, Topics and Sentiment
+
+<p align="center">
+    <img src="images/clusters.png" alt="Clusters, topics, and color by sentiment"/>
+</p>
+
 ## Contact
 
 Due to anonymous submission, the authors are not identified in this repository. For inquiries or contact, please use the official PROPOR 2026 channels.
