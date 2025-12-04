@@ -128,6 +128,8 @@ Response:
 
 - The test database is available at the root of the project.
 
+- The script and the data for training the baseline are available in the `/baseline` folder.
+
 ## Overview Datasets
 
 We built a gold collection by combining three public datasets: [Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)—In 2018, the largest department store in the Brazilian market—released the “Brazilian E-commerce Public Dataset by Olist” on the Kaggle platform, a dataset with roughly 100,000 orders from 2016 to 2018 provided by various marketplaces in Brazil. [B2W](https://github.com/americanas-tech/b2w-reviews01)—In 2019, B2W Digital made available “B2W-Reviews01,” an open corpus of product reviews containing about 130,000 e-commerce customer reviews collected from the Americanas.com website. Finally, [UTLCorpus](https://github.com/RogerFig/UTLCorpus), which is the most extensive set, with about 2 million reviews. It comprises two datasets: Movie Reviews, collected from Filmow, and App Reviews, collected from the Play Store.
